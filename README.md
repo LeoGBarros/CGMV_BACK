@@ -30,14 +30,14 @@ Content-Type: application/json
   "password": "Senhaforte1"
 }
 
-# 🔄 Exemplo de Resposta
+**Exemplo de Resposta**
 ✔ Senha Válida
 
 {
   "valid": true
 }
 
-# ❌ Senha Inválida
+**❌ Senha Inválida**
 
 {
   "valid": false,
