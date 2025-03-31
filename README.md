@@ -21,23 +21,23 @@ Ter 9 ou mais caracteres
 - **Conter ao menos 1 caractere especial (ex: !@#$%^&*()-+)**
 - **Não conter caracteres repetidos**
 
-🔄 Exemplo de Requisição
+## 🔄 Exemplo de Requisição
 
 POST /validate-password
 Content-Type: application/json
 
 {
-  "password": "Aa1!xyzde"
+  "password": "Senhaforte1"
 }
 
-🔄 Exemplo de Resposta
+#🔄 Exemplo de Resposta
 ✔ Senha Válida
 
 {
   "valid": true
 }
 
-❌ Senha Inválida
+#❌ Senha Inválida
 
 {
   "valid": false,
@@ -47,7 +47,7 @@ Content-Type: application/json
   ]
 }
 
-⚙️ Tecnologias Utilizadas
+##⚙️ Tecnologias Utilizadas
 - Java 17+
 - Spring Boot
 - Spring Web
