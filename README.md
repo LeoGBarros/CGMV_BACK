@@ -30,14 +30,14 @@ Content-Type: application/json
   "password": "Senhaforte1"
 }
 
-#🔄 Exemplo de Resposta
+# 🔄 Exemplo de Resposta
 ✔ Senha Válida
 
 {
   "valid": true
 }
 
-#❌ Senha Inválida
+# ❌ Senha Inválida
 
 {
   "valid": false,
@@ -47,7 +47,7 @@ Content-Type: application/json
   ]
 }
 
-##⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 - Java 17+
 - Spring Boot
 - Spring Web
